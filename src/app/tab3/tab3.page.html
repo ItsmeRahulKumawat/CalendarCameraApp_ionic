@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Calendar
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,5 +13,34 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <div class="ion-padding">
+
+    <ion-calendar [(ngModel)]="date"
+      (onChange)="onChange($event)"
+      [type]="type"
+      [format]="'YYYY-MM-DD'">
+    </ion-calendar>
+
+  </div>
+
+  <!-- <div class="ion-padding">
+
+    <ion-calendar [(ngModel)]="dateMulti"
+        [options]="optionsMulti"
+        [type]="type"
+        [format]="'YYYY-MM-DD'">
+    </ion-calendar>
+    
+  </div> -->
+
+  <!-- <div class="ion-padding">
+
+    <ion-calendar [(ngModel)]="dateRange"
+        [options]="optionsRange"
+        [type]="type"
+        [format]="'YYYY-MM-DD'">
+    </ion-calendar>
+    
+  </div> -->
+  
 </ion-content>

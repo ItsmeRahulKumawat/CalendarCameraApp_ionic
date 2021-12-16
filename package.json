@@ -27,8 +27,11 @@
     "@capacitor/splash-screen": "^1.0.0",
     "@capacitor/storage": "^1.0.0",
     "@ionic/angular": "^5.6.7",
+    "@ionic/lab": "^3.2.10",
     "@ionic/pwa-elements": "^3.0.2",
     "core-js": "^3.6.5",
+    "ion2-calendar": "^3.0.0-rc.0",
+    "moment": "^2.29.1",
     "rxjs": "^6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
